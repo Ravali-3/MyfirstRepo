@@ -1,0 +1,57 @@
+1.When an event occurs the code will automatically triggered.If any values are updated the message will triggered to user automatically.
+Using Triggers efficiency will increase.
+
+2.To convert primitive datatypes into objects we use Wrapperclass.Collection work only with objects
+and generics does not allow primitive types so we need to use wrapper classes
+
+3.StringBuffer is synchronized and thread safe and performance is low.string builder is not synchronized and not threadsafe and performance is high.Both are mutable.
+
+4.set and list Both are from java.util package,List can contain duplicate values and order is preserved where as set does not allow duplicates,order is not preserved
+
+5.Checked exceptions are checked by compiler at runtime ex File not found exception.where as unchecked are not checked by compiler.checked exceptions are handled by using try-catch block.
+
+6.Statement is used to execute sql queries we can not pass query dymanically at run time.It is used when we need to execute the query only once.
+  Prepared Statement used to execute dynamic sql queries .We can pass parameters dymamically.It is used when we need to execute the query multiple times.
+
+6.1.Javascript is a scripting languagewhich is based on ecma script and dom.Need lots of code
+ jquery is library which is build on javascript.can write less code.It is efficient
+
+6.2. var and let both used for variable declaration.
+	var is used for global scope and it is accessible from anywhere in program
+	let is used for block scope and it is not accessible from anywhere in program
+6.2.3 id used to select to select elements with using(#) and id name
+	Class selector used to select class with (.) and class name
+7. A function used to calculate result using inputs.Afunction can called within statement
+	A procedure performs certain task and it can not be called using function and sql query
+
+8.Generics provides type safety while working with Collections to use specific type of objects.We can define object type in angular brackets
+
+9.java7:Catching multiple exceptions using single catch,underscores in numericals,String in switch statement
+	Java8:Lamda expressions,Functional interfaces,stream api,nashhorn javascript,Date api,For each method
+
+10.State management is used to determine state of application.it ensures the changes made by user are stored in db.
+    and also used to manage state of user using session.
+11.Jsp tag library provides tags to insert java code using scriptlet tag, expression tag and declaration tag
+   Jstl tags are core tags,function tags,formatting tags,sql tags,xml tags
+
+12.MVC is a pattern which is used to divide application into model view and controller.Model contains entity classes,
+	view is front end and controller manages flow and connection.	
+13.We use @qualifier annotation to remove ambiguity to create which bean when two components are there with same name.
+
+14.Shard is diving data horizontally where rows are kept separately.It is used to minimise data.Hibernate shards divided into 
+	two types.1.Generalized sharding logic,2.Application specific sharding logic
+
+15.Html5 and 6 features
+	Integrating Camera,Video objects,Flexible image sizing,Hard authentication
+
+16 Css selectors
+	element selector<d>,id selector using #,class selector(.),Universal selector(*)
+
+17 We can use jsp as controller
+
+18 Spring is a light weight java framework provides loose coupling.Spring Ioc container used for loose coupling.
+
+19. Ioc is inversion of control used to provide loose coupling between object dependancy.
+	It injects objects at runtime whenever they needed
+20.Spring used to create light weight application.There are 6 scopes used by spring-Singleton,
+	prototype,request,session,application,web socket.Default scope of spring bean is singleton
